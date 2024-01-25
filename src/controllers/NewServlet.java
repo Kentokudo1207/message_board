@@ -16,7 +16,7 @@ import utils.DBUtil;
 /**
  * Servlet implementation class NewServlet
  */
-@WebServlet("/New")
+@WebServlet("/new")
 public class NewServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -58,5 +58,4 @@ public class NewServlet extends HttpServlet {
 
         em.close();
      }
-
 }
