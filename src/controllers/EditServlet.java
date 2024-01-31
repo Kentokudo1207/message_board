@@ -48,7 +48,6 @@ public class EditServlet extends HttpServlet {
             request.getSession().setAttribute("message_id", m.getId());
         }
 
-
         // メッセージIDをセッションスコープに登録
         request.getSession().setAttribute("message_id", m.getId());
 
